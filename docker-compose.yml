@@ -1,0 +1,14 @@
+version: '3'
+services:
+  encurtador-url:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: encurtador-url
+    ports:
+      - 8082:8082
+    networks:
+      - net1
+
+networks:
+  net1:

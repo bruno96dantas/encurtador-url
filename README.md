@@ -19,3 +19,17 @@ A url retornada deverá ser salva no banco de dados e possui prazo de validade (
 **Exemplo ao redirecionar**
 
 - Ao receber uma chamada para http://localhost:8081/abc123ab você irá retorna um redirecionamento para a url salva no banco (backendbrasil.com.br), caso não seja encontrada, retornar HTTP 404
+
+#Rodar o sisteminha
+
+1. Primeiro, clonar o projeto
+```
+git clone https://github.com/bruno96dantas/encurtador-url.git
+```
+
+2. Dentro da pasta root do projeto, rodar:
+```
+docker-compose up
+```
+
+Pronto!
